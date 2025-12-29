@@ -11,10 +11,10 @@ API_HASH = os.environ.get("API_HASH", "04cc61b089c1f7a79b6d508759c16678")
 
 # Main
 OWNER_ID = int(os.environ.get("OWNER_ID", "8024758566"))
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "5356")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://e55791917_db_user:RzXaeGE3AagxvADd@cluster0.ryscv19.mongodb.net/?appName=Cluster0")
+DB_URI = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "Eren")
 
 #Auto approve 
