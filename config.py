@@ -6,15 +6,15 @@ from logging.handlers import RotatingFileHandler
 
 # Recommended
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+APP_ID = int(os.environ.get("APP_ID", "33041699"))
+API_HASH = os.environ.get("API_HASH", "04cc61b089c1f7a79b6d508759c16678")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
-PORT = os.environ.get("PORT", "8080")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8024758566"))
+PORT = os.environ.get("PORT", "5356")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://e55791917_db_user:RzXaeGE3AagxvADd@cluster0.ryscv19.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "link")
 
 #Auto approve 
