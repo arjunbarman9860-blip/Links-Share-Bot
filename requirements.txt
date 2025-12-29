@@ -1,4 +1,4 @@
-pyrofork==2.3.59
+pyrofork==2.3.46
 tgcrypto
 pyromod
 python-dotenv
@@ -6,5 +6,5 @@ pymongo
 dnspython
 motor
 aiohttp
-aiofiles
-python-3.10.13
+aiofilesam
+Requires-Python ~=3.10
